@@ -38,8 +38,8 @@ const adicionarCard = (aluno, nota) => {
 }
 
 const handleClick = () => {
-    const nomeAluno = prompt('Digite o nome do aluno').trim()
-    const notaAluno = prompt('Digite a nota').trim()
+    const nomeAluno = prompt('Digite o nome do aluno')
+    const notaAluno = prompt('Digite a nota')
 
     console.log(notaAluno)
 
