@@ -43,7 +43,7 @@ const handleClick = () => {
 
     console.log(notaAluno)
 
-    if (notaAluno === '' || nomeAluno || notaAluno) {
+    if (notaAluno === '') {
         alert('ERRO: Não é possível prosseguir com o campo VAZIO')
     } else if (notaAluno == null) {
         alert('ERRO: Não é possível prosseguir com o campo VAZIO')
